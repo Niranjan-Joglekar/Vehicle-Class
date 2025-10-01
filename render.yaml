@@ -1,6 +1,6 @@
 services:
   # The Backend API (as a Private Service)
-  - type: pvt_svc
+  - type: privateservice # <-- CORRECTED from 'pvt_svc'
     name: api
     env: docker
     dockerfilePath: ./Dockerfile.api
