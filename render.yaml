@@ -1,0 +1,12 @@
+services:
+  # The Backend API (as a Private Service)
+  - type: pvt_svc
+    name: api
+    env: docker
+    dockerfilePath: ./Dockerfile.api
+
+  # The Frontend Web Server (as a Web Service to get a URL)
+  - type: web
+    name: web
+    env: docker
+    dockerfilePath: ./Dockerfile.web
