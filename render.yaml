@@ -1,6 +1,6 @@
 services:
-  # The Backend API (as a Private Service)
-  - type: pserv # <-- FINAL CORRECTION: The correct type is 'pserv'
+  # The Backend API (now as a Web Service to use the free tier)
+  - type: web # <-- CHANGED from 'pserv'
     name: api
     env: docker
     dockerfilePath: ./Dockerfile.api
