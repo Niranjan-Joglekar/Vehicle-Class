@@ -2,7 +2,7 @@
 title: Vehicle Analysis App
 emoji: 🚗
 sdk: docker
-app_port: 80
+app_port: 8080
 ---
 # Vehicle-Classifier-and-ANPR
 ## How to run: 
